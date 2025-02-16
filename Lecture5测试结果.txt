@@ -1,0 +1,465 @@
+keys_file = ../datasets/planet
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 0
+table_size = -1
+init_table_ratio = 1
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/planet
+200000000
+Table size is 200000000, Init table size is 200000000
+824378332 6373465721 924466799 3203024 803589801 6902246821 617401429 598376415 384530036 532012518 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 200000000
+sample keys.
+generate operations.
+operations.size(): 0
+bulk loading
+Begin running
+Finish running
+Throughput = 0
+Memory: 0
+success_read: 0
+success_insert: 0
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=183157853/200000000=0.915789
+sizeLIPP=128
+sizeNode=96
+cntNode=32307363
+cntslot=1470255198
+sum_meta_size=128+96*32307363+1470255198*2/8=3469070775
+ptr_size=16*32307362=516917792
+data_size=16*200000000=3200000000
+empty_slot_size=16*1237947836=19807165376
+./build/microbench --keys_file=../datasets/planet --keys_file_type=binary      136.35s user 20.54s system 369% cpu 42.495 total
+keys_file = ../datasets/covid
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 0
+table_size = -1
+init_table_ratio = 1
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/covid
+200000000
+Table size is 200000000, Init table size is 200000000
+1394354644583862273 1430870934257287168 1400450473065287688 1345163617079943168 1393238494693167106 1432994657068371973 1383585068824760322 1382724859449507840 1372361871144128515 1379370823673348103 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 200000000
+sample keys.
+generate operations.
+operations.size(): 0
+bulk loading
+Begin running
+Finish running
+Throughput = 0
+Memory: 0
+success_read: 0
+success_insert: 0
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=99453241/200000000=0.497266
+sizeLIPP=128
+sizeNode=96
+cntNode=45409942
+cntslot=844161766
+sum_meta_size=128+96*45409942+844161766*2/8=4570395001
+ptr_size=16*45409941=726559056
+data_size=16*200000000=3200000000
+empty_slot_size=16*598751825=9580029200
+./build/microbench --keys_file=../datasets/covid --keys_file_type=binary       142.45s user 18.57s system 402% cpu 40.035 total
+keys_file = ../datasets/osm
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 0
+table_size = -1
+init_table_ratio = 1
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/osm
+200000000
+Table size is 200000000, Init table size is 200000000
+5172156700339947927 9810223096399409183 5189245165021010207 894698793410017269 5171804286720044085 9825198703788957883 5155859970121106589 5154100281758103041 5102378654802479291 5146998009630943689 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 200000000
+sample keys.
+generate operations.
+operations.size(): 0
+bulk loading
+Begin running
+Finish running
+Throughput = 0
+Memory: 0
+success_read: 0
+success_insert: 0
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=257705787/200000000=1.288529
+sizeLIPP=128
+sizeNode=96
+cntNode=42075427
+cntslot=1844607662
+sum_meta_size=128+96*42075427+1844607662*2/8=4500393035
+ptr_size=16*42075426=673206816
+data_size=16*200000000=3200000000
+empty_slot_size=16*1602532236=25640515776
+./build/microbench --keys_file=../datasets/osm --keys_file_type=binary         93.79s user 20.34s system 250% cpu 45.493 total
+keys_file = ../datasets/fb
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 0
+table_size = -1
+init_table_ratio = 1
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/fb
+200000000
+Table size is 200000000, Init table size is 200000000
+41160203221 68402587369 46062158952 296631094 40188950274 69844159249 31644057163 30952399229 22429340661 28259301844 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 200000000
+sample keys.
+generate operations.
+operations.size(): 0
+bulk loading
+Begin running
+Finish running
+Throughput = 0
+Memory: 0
+success_read: 0
+success_insert: 0
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=168371156/200000000=0.841856
+sizeLIPP=128
+sizeNode=96
+cntNode=34357620
+cntslot=1347380432
+sum_meta_size=128+96*34357620+1347380432*2/8=3635176756
+ptr_size=16*34357619=549721904
+data_size=16*200000000=3200000000
+empty_slot_size=16*1113022813=17808365008
+./build/microbench --keys_file=../datasets/fb --keys_file_type=binary --read=  87.44s user 18.18s system 261% cpu 40.380 total
+keys_file = ../datasets/planet
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 100000000
+table_size = -1
+init_table_ratio = 0.5
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/planet
+200000000
+Table size is 200000000, Init table size is 100000000
+824378332 6373465721 924466799 3203024 803589801 6902246821 617401429 598376415 384530036 532012518 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 100000000
+sample keys.
+generate operations.
+operations.size(): 100000000
+bulk loading
+Begin running
+Finish running
+Throughput = 1530376
+Memory: 0
+success_read: 0
+success_insert: 100000000
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=272307445/200000000=1.361537
+sizeLIPP=128
+sizeNode=96
+cntNode=51287478
+cntslot=998595854
+sum_meta_size=128+96*51287478+998595854*2/8=5173246979
+ptr_size=16*51287477=820599632
+data_size=16*200000000=3200000000
+empty_slot_size=16*747308377=11956934032
+./build/microbench --keys_file=../datasets/planet --keys_file_type=binary      170.67s user 24.49s system 183% cpu 1:46.19 total
+keys_file = ../datasets/covid
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 100000000
+table_size = -1
+init_table_ratio = 0.5
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/covid
+200000000
+Table size is 200000000, Init table size is 100000000
+1394354644583862273 1430870934257287168 1400450473065287688 1345163617079943168 1393238494693167106 1432994657068371973 1383585068824760322 1382724859449507840 1372361871144128515 1379370823673348103 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 100000000
+sample keys.
+generate operations.
+operations.size(): 100000000
+bulk loading
+Begin running
+Finish running
+Throughput = 2885150
+Memory: 0
+success_read: 0
+success_insert: 100000000
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=152413994/200000000=0.762070
+sizeLIPP=128
+sizeNode=96
+cntNode=62690101
+cntslot=741546746
+sum_meta_size=128+96*62690101+741546746*2/8=6203636510
+ptr_size=16*62690100=1003041600
+data_size=16*200000000=3200000000
+empty_slot_size=16*478856646=7661706336
+./build/microbench --keys_file=../datasets/covid --keys_file_type=binary       145.43s user 19.99s system 225% cpu 1:13.32 total
+keys_file = ../datasets/osm
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 100000000
+table_size = -1
+init_table_ratio = 0.5
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/osm
+200000000
+Table size is 200000000, Init table size is 100000000
+5172156700339947927 9810223096399409183 5189245165021010207 894698793410017269 5171804286720044085 9825198703788957883 5155859970121106589 5154100281758103041 5102378654802479291 5146998009630943689 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 100000000
+sample keys.
+generate operations.
+operations.size(): 100000000
+bulk loading
+Begin running
+Finish running
+Throughput = 1576080
+Memory: 0
+success_read: 0
+success_insert: 100000000
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=311312055/200000000=1.556560
+sizeLIPP=128
+sizeNode=96
+cntNode=48404622
+cntslot=1290600362
+sum_meta_size=128+96*48404622+1290600362*2/8=4969493930
+ptr_size=16*48404621=774473936
+data_size=16*200000000=3200000000
+empty_slot_size=16*1042195741=16675131856
+./build/microbench --keys_file=../datasets/osm --keys_file_type=binary         121.28s user 18.71s system 136% cpu 1:42.52 total
+Bad flag ''. Expected --key=value
+keys_file = ../datasets/fb
+keys_file_type = binary
+read = 0
+insert = 1
+delete = 0
+update = 0
+scan = 0
+scan_num = 100
+operations_num = 100000000
+table_size = -1
+init_table_ratio = 0.5
+del_table_ratio = 0.5
+thread_num = 1
+index = lipp
+sample_distribution = uniform
+latency_sample = 0
+latency_sample_ratio = 0.01
+error_bound = 64
+output_path = ./out.csv
+seed = 1866
+memory = 0
+dataset_statistic = 0
+data_shift = 0
+lyc_debug = 1
+[micro] Read:Insert:Update:Scan:Delete= 0:1:0:0:0
+Reading data from file.
+../datasets/fb
+200000000
+Table size is 200000000, Init table size is 100000000
+41160203221 68402587369 46062158952 296631094 40188950274 69844159249 31644057163 30952399229 22429340661 28259301844 
+prepare init keys.
+table_size: 200000000
+init_keys.size(): 100000000
+sample keys.
+generate operations.
+operations.size(): 100000000
+bulk loading
+Begin running
+Finish running
+Throughput = 1554202
+Memory: 0
+success_read: 0
+success_insert: 100000000
+success_update: 0
+success_remove: 0
+scan_not_enough: 0
+key_size=8
+,value_size=8
+avg_cenggao=259638752/200000000=1.298194
+sizeLIPP=128
+sizeNode=96
+cntNode=55114305
+cntslot=972457898
+sum_meta_size=128+96*55114305+972457898*2/8=5534087882
+ptr_size=16*55114304=881828864
+data_size=16*200000000=3200000000
+empty_slot_size=16*717343594=11477497504
+./build/microbench --keys_file=../datasets/fb --keys_file_type=binary --read=  122.15s user 17.60s system 136% cpu 1:42.50 total
