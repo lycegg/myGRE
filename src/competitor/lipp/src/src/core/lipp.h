@@ -1058,8 +1058,8 @@ public:
         printf("sizeNode=%d\n",sizeof(Node));
         printf("cntNode=%lld\n",cntmeta);
         printf("cntslot=%lld\n",cntslot);
-        long long ans_meta=sizethis+sizeof(Node)*cntmeta+cntslot*2;
-        printf("sum_meta_size=%lld+%lld*%lld+%lld*2=%lld\n",sizethis,sizeof(Node),cntmeta,cntslot,ans_meta);
+        long long ans_meta=sizethis+sizeof(Node)*cntmeta+cntslot*2/8;
+        printf("sum_meta_size=%lld+%lld*%lld+%lld*2/8=%lld\n",sizethis,sizeof(Node),cntmeta,cntslot,ans_meta);
         printf("ptr_size=%lld*%lld=%lld\n",slotsize,cntptr,slotsize*cntptr);
         printf("data_size=%lld*%lld=%lld\n",slotsize,cntdata,slotsize*cntdata);
         auto cntempty=cntslot-cntptr-cntdata;
